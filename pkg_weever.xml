@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="package" version="2.5" method="upgrade">
+
+	<name>Weever appBuilder for Joomla</name>
+	<author>Aaron Song, Robert Gerald Porter, Matt Grande, Andrew Holden</author>
+	<creationDate>February 13, 2014</creationDate>
+	<packagename>weever</packagename>
+	<version>3.0.0</version>
+	<url>http://weeverapps.com/</url>
+	<packager>Weever Apps Inc</packager>
+	<packagerurl>http://weeverapps.com/</packagerurl>
+	<description>Build powerful mobile web apps from your Joomla! site.</description>
+	<update>http://weeverapps.com/update</update>
+
+	<files folder="packages">
+
+		<file type="template" id="weever" client="site">tmpl_weever_cartographer.zip</file>
+		<file type="plugin" id="weever" group="content">plg_geotagger.zip</file>
+		<file type="plugin" id="weever" group="k2">plg_geotaggerk2.zip</file>
+		<file type="plugin" id="weever" group="system">plg_mobileesp.zip</file>
+		<file type="component" id="weever" >com_weever.zip</file>
+
+	</files>
+
+	<updateservers>
+
+		<server type="collection" priority="1" name="weever"><![CDATA[http://updates.weeverapp.com/joomla/pkg_appbuilder.xml]]></server>
+
+	</updateservers>
+
+</extension>
