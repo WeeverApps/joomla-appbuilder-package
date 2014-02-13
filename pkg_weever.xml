@@ -24,7 +24,7 @@
 
 	<updateservers>
 
-		<server type="collection" priority="1" name="weever"><![CDATA[http://updates.weeverapp.com/joomla/pkg_appbuilder.xml]]></server>
+		<server type="collection" priority="1" name="weever"><![CDATA[http://updates.weeverapp.com/joomla/packages.xml]]></server>
 
 	</updateservers>
 
