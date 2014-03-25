@@ -3,9 +3,9 @@
 
 	<name>Weever appBuilder for Joomla</name>
 	<author>Aaron Song, Robert Gerald Porter, Matt Grande, Andrew Holden</author>
-	<creationDate>February 13, 2014</creationDate>
+	<creationDate>March 15, 2014</creationDate>
 	<packagename>weever</packagename>
-	<version>3.0.0</version>
+	<version>3.0.1</version>
 	<url>http://weeverapps.com/</url>
 	<packager>Weever Apps Inc</packager>
 	<packagerurl>http://weeverapps.com/</packagerurl>
